@@ -1,0 +1,7 @@
+.DS_Store
+/node_modules/
+/src/node_modules/@sapper/
+yarn-error.log
+/cypress/screenshots/
+/__sapper__/
+/paper-kit-2-pro-html-v2.3.0/
