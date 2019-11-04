@@ -1,15 +1,7 @@
-+++
-author = "Brian Ketelsen"
-categories = ["hacks", "i3", "windows", "linux", "mac"]
-date = 2016-11-07T00:07:00Z
-description = ""
-draft = false
-image = "/images/2017/09/getamac.png"
-url = "/switchers"
-tags = ["hacks", "i3", "windows", "linux", "mac"]
-title = "Switching - Irony and Operating systems"
-
-+++
+---
+title: Switching -- Irony and Operating systems
+date: 2016-11-07T00:07:00.000Z
+---
 
 TLDR; I've traded in my Mac on a Surface Pro.  Here's why:<!--more-->
 
