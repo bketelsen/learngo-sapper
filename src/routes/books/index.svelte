@@ -17,7 +17,7 @@
 </style>
 
 <svelte:head>
-  <title>Blog</title>
+  <title>Books</title>
 </svelte:head>
 <div class="container">
   <div class="row">
