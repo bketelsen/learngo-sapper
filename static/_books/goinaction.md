@@ -1,7 +1,7 @@
 ---
-title: Switching -- Irony and Operating systems
+title: Go in Action
 date: 2016-11-07T00:07:00.000Z
-category: Operating Systems
+category: Programming
 ---
 
 TLDR; I've traded in my Mac on a Surface Pro.  Here's why:
