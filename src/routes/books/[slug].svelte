@@ -46,14 +46,6 @@ p {
       <div class="section section-white">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 ml-auto mr-auto text-center title">
-              <h2>A place for storytelling</h2>
-              <h3 class="title-uppercase">
-                <small>Written by designers for designers</small>
-              </h3>
-            </div>
-          </div>
-          <div class="row">
             <div class="col-md-10 ml-auto mr-auto">
               <div class="text-center">
                 <span class="badge badge-warning main-tag">{post.category}</span>
