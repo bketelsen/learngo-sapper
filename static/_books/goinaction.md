@@ -1,27 +1,80 @@
 ---
+thumbnail: /uploads/gia.jpeg
+summary: >-
+  Go in Action introduces the Go language, guiding you from inquisitive
+  developer to Go guru. The book begins by introducing the unique features and
+  concepts of Go. Then, you'll get hands-on experience writing real-world
+  applications including websites and network servers, as well as techniques to
+  manipulate and convert data at speeds that will make your friends jealous.
 title: Go in Action
-date: 2016-11-07T00:07:00.000Z
 category: Programming
+date: 2016-11-07T00:07:00.000Z
 ---
+**Summary**
 
-TLDR; I've traded in my Mac on a Surface Pro.  Here's why:
 
-I've been whining about Apple and the way they've ignored the power users for quite some time now.  I've been using Linux for development for several years, and always wanted a way to run Linux as my primary OS.  But the sad truth (for me) is that there are just some things that prevent me from using Linux as my full time operating system.  Email might be the biggest, but there are other apps that are missing or just sub-par.
 
-MacOS was always "close-enough" to Linux that most things worked well.  Docker made things a little more difficult initially, then a little better with the new Docker for Mac.  But it still wasn't Linux, and it's hard to argue that developing on the platform you ship to is the right choice.  The OS itself is still visually superior to anything else, but it's been showing the signs of neglect for a few years now.  It's clear from Apple's recent announcements that they are a mobile OS/hardware company that happens to sell computers too.  They're not sad to lose me, I'm sure.  
+Go in Action introduces the Go language, guiding you from inquisitive developer to Go guru. The book begins by introducing the unique features and concepts of Go. Then, you'll get hands-on experience writing real-world applications including websites and network servers, as well as techniques to manipulate and convert data at speeds that will make your friends jealous.
 
-My article in July about [Windows Subsystem for Linux](/blog/i3-windows/) hinted at my excitement about being able to run a solid desktop OS but still do the open source sort of development that really needs to be done on a Linux type operating system.  I abandoned that effort in July because it was still too alpha quality.  Too many things didn't work.  But it's November now, several builds later and Microsoft is shipping Ubuntu 16.04.1 in the latest Windows Insider releases.
 
-I took the plunge and bought a Surface Pro 4 when Microsoft announced the trade in program (still good until the 10th of November I think...) to give up to $650 off of a Surface device.  This Surface is just the right size for an airplane tray, has an i7 and 16GB of RAM, and most importantly the Linux subsystem just works for the most part.  I haven't done anything yet that failed.  I'm sure there are still things that won't work, but for my primary use -- writing Go applications, teaching Kubernetes and Go, hacking on open source projects -- it all works.
 
-I was even able to run i3 Window manager again.  No flaws, no errors.  Windows has solid email and calendar applications, and let's face it; Chrome is Chrome on every OS, and we spend more time there than any other app besides the terminal.  SPEAKING OF THE TERMINAL, Microsoft has done some serious house cleaning there.  The terminal is fast, has true color support, transparency, auto layout correction on resizing, who knows what else has been fixed under the covers?  It's 80% of what you'd expect from gnome-terminal.  And that's a far cry from the old CMD.exe days.
+Purchase of the print book includes a free eBook in PDF, Kindle, and ePub formats from Manning Publications.
 
-I don't expect to be running X Windows often, when I'm deep in a hacking session I'll probably open up i3 window manager, it's still the most productive way to code.  Neovim and vim-go work perfectly in Windows bash, so it's not a stretch to think I could just have a couple of bash windows open and alt-tab between them.  SSH and SCP work perfectly, and I can still cross-compile Go binaries for any platform (like my Raspberry Pi for my bbq app!). 
 
-The most amazing part of all of this is that I simply git cloned my [dotfiles](https://github.com/bketelsen/dotfiles) from my Ubuntu installs and ran them un-altered.  It's the same experience, but without the hardware headaches that Linux always brings, nor the lack of good quality applications.  
-<hr/>
-I think Apple has lost its hunger, and Microsoft found it.  The tables have turned from the funny switching campaigns with Justin Long looking hip and making fun of the frumpy John Hodgman.  Today's Microsoft is a completely different animal.  They're contributing heavily to open source projects, they've opened up the .Net platform, they're embracing developers and open source enthusiasts openly while Apple counts dollar bills from iPhone sales in a vault in Switzerland somewhere.
 
-I got a lot of amused responses on Twitter when I announced my switch.  This environment may not yet be perfect, but my bet is on Microsoft for the future.  I'm surprised to be saying that, but the evidence is clear that Apple isn't the company it was under Steve Jobs.  And Microsoft isn't the company it was under Balmer.  The irony hurts.  
+**About the Technology**
 
-[image credit wikipedia](https://en.wikipedia.org/w/index.php?curid=26608065)
+
+
+Application development can be tricky enough even when you aren't dealing with complex systems programming problems like web-scale concurrency and real-time performance. While it's possible to solve these common issues with additional tools and frameworks, Go handles them right out of the box, making for a more natural and productive coding experience. Developed at Google, Go powers nimble startups as well as big enterprises—companies that rely on high-performing services in their infrastructure.
+
+
+
+**About the Book**
+
+
+
+Go in Action is for any intermediate-level developer who has experience with other programming languages and wants a jump-start in learning Go or a more thorough understanding of the language and its internals. This book provides an intensive, comprehensive, and idiomatic view of Go. It focuses on the specification and implementation of the language, including topics like language syntax, Go's type system, concurrency, channels, and testing.
+
+
+
+**What's Inside**
+
+
+
+* Language specification and implementation
+* Go's type system
+* Internals of Go's data structures
+* Testing and benchmarking
+
+
+
+**About the Reader**
+
+
+
+This book assumes you're a working developer proficient with another language like Java, Ruby, Python, C#, or C++.
+
+
+
+**About the Authors**
+
+
+
+William Kennedy is a seasoned software developer and author of the blog GoingGo.Net. Brian Ketelsen and Erik St. Martin are the organizers of GopherCon and coauthors of the Go-based Skynet framework.
+
+
+
+**Table of Contents**
+
+
+
+1. Introducing Go
+2. Go quick-start
+3. Packaging and tooling
+4. Arrays, slices, and maps
+5. Go's type system
+6.  Concurrency
+7. Concurrency patterns
+8. Standard library
+9. Testing and benchmarking
