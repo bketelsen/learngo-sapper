@@ -27,22 +27,18 @@
         <div class="card small hoverable">
           <div class="card-image">
             <img src="/img/sections/daniel-olahh.jpg" />
-            <a href="/blog/{post.slug}">
+            <a href="/books/{post.slug}">
               <span class="card-title">{post.title}</span>
             </a>
           </div>
           <div class="card-content">
-            <p>
-              I am a very simple card. I am good at containing small bits of
-              information. I am convenient because I require little markup to
-              use effectively.
-            </p>
+		  <p>{post.summary}</p>
           </div>
           <div class="card-action">
 		   <div class="chip">
     		{post.category}
 			</div>
-            <a href="/blog/{post.slug}">Read Now</a>
+            <a href="/books/{post.slug}">Read Now</a>
           </div>
         </div>
 
