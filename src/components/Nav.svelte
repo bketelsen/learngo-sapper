@@ -46,6 +46,9 @@
       <li>
         <a href="/books">Books</a>
       </li>
+      <li>
+        <a href="/projects">Projects</a>
+      </li>
       {#if !isLoggedIn}
         <li>
           <a
