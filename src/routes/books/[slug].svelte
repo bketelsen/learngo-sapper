@@ -65,7 +65,7 @@ p {
             </div>
             <div class="col-md-8 ml-auto mr-auto">
               <a href="javascript: void(0);">
-                <div class="card" data-radius="none" style="background-image: url('/assets/img/sections/daniel-olahs.jpg');"></div>
+		      <div class="card" data-radius="none" style="background-image: url('{post.thumbnail}');"></div>
                 <p class="image-thumb text-center">Photo by Cam Adams</p>
               </a>
               <div class="article-content">

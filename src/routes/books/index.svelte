@@ -26,7 +26,7 @@
       <div class="col m4">
         <div class="card small hoverable">
           <div class="card-image">
-            <img src="/img/sections/daniel-olahh.jpg" />
+		<img src="{post.thumbnail}" />
             <a href="/books/{post.slug}">
               <span class="card-title">{post.title}</span>
             </a>
