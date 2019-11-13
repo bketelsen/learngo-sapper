@@ -1,32 +1,14 @@
-<script context="module">
-  export function preload({ params, query }) {
-    return this.fetch(`blog.json`)
-      .then(r => r.json())
-      .then(posts => {
-        return { posts };
-      });
-  }
-</script>
-
 <script>
-  export let posts;
+export let post;	
 </script>
-
+			
 <style>
-
-</style>
-
-<svelte:head>
-  <title>Snacks</title>
-</svelte:head>
-<div class="container">
-  <div class="row">
-
-    {#each posts as post}
+			
+</style> 
       <div class="col m4">
         <div class="card small hoverable">
           <div class="card-image">
-            <img src="/img/sections/daniel-olahh.jpg" />
+            <img src="{post.thumbnail}" alt="{post.title}" />
             <a href="/blog/{post.slug}">
               <span class="card-title">{post.title}</span>
             </a>
@@ -39,16 +21,9 @@
             </p>
           </div>
           <div class="card-action">
-		   <div class="chip">
-    		{post.category}
-			</div>
+            <div class="chip">{post.category}</div>
             <a href="/blog/{post.slug}">Read Now</a>
           </div>
         </div>
 
       </div>
-    {/each}
-
-  </div>
-
-</div>

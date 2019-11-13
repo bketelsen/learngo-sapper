@@ -9,6 +9,8 @@
 </script>
 
 <script>
+
+	import ProjectCard from "../../components/ProjectCard.svelte"
   export let posts;
 </script>
 
@@ -17,32 +19,13 @@
 </style>
 
 <svelte:head>
-  <title>Books</title>
+  <title>Projects</title>
 </svelte:head>
 <div class="container">
   <div class="row">
 
     {#each posts as post}
-      <div class="col m4">
-        <div class="card small hoverable">
-          <div class="card-image">
-		<img src="{post.thumbnail}" />
-            <a href="/projects/{post.slug}">
-              <span class="card-title">{post.title}</span>
-            </a>
-          </div>
-          <div class="card-content">
-		  <p>{post.summary}</p>
-          </div>
-          <div class="card-action">
-		   <div class="chip">
-    		{post.category}
-			</div>
-            <a href="/projects/{post.slug}">Read Now</a>
-          </div>
-        </div>
-
-      </div>
+      <ProjectCard {post} />
     {/each}
 
   </div>
